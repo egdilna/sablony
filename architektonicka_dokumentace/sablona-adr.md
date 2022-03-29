@@ -43,4 +43,4 @@ Zdůvodnění:
 
 <!-- markdownlint-disable-file MD013 -->
 
-<!-- Používá šablonu ADR z adresy 
+<!-- Používá šablonu ADR z adresy https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/sablona-adr.md -->
