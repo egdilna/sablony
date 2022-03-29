@@ -1,4 +1,6 @@
-# Název rozhodnutí
+Záznam o architektonickém rozhodnutí (ADR)
+
+## Název rozhodnutí
 
 * Stav: návrh
 * Rozhoduje: kdo
@@ -7,19 +9,19 @@
 
 Stručný popis
 
-## Kontext a popis problému
+### Kontext a popis problému
 
 Popište kontext a zadání problému, např. ve volné formě pomocí několika vět.
 
-## Motivace a ovlivnění rozhodnutí
+### Motivace a ovlivnění rozhodnutí
 
 * odrážky
 
-## Zvažované možnosti
+### Zvažované možnosti
 
 1. první možnost
 
-## Výsledek rozhodnutí
+### Výsledek rozhodnutí
 
 Bylo rozhodnuto dne 2022-01-01, rozhodl kdo.
 
@@ -29,18 +31,18 @@ Zdůvodnění:
 
 * odrážky
 
+### Přínosy a dopady a důsledky
 
-### Přínosy a pozitivní důsledky
-
-* odrážky
-
-## Dopady a negativní důsledky <!-- volitelné -->
+Přínosy a pozitivní důsledky
 
 * odrážky
 
-## Odkazy a další informace
+Dopady a negativní důsledky <!-- volitelné -->
 
+* odrážky
 
-<!-- markdownlint-disable-file MD013 -->
+### Odkazy a další informace
+
+<!-- markdownlint-disable-file MD013 MD041 -->
 
 <!-- Používá šablonu ADR z adresy https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/sablona-adr.md -->
