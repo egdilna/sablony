@@ -4,6 +4,11 @@ author: xxx
 subject: Formální dokumentace záměru na ISVS dle IKČR a vyhlášky
 ---
 
+Verze šablony: 1.2
+
+Šablona: https://github.com/egdilna/sablony/blob/main/dokumentace_is/sablona-zamer-isvs.md
+
+
 # 1. Úvod
 
 Toto je formální záměr na pořízení informačního systému, konkrétně informačního systému veřejné správy, a to za účelem podpory činností agendy xxxrespektive, publikace 
