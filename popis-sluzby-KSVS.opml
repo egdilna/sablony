@@ -6,10 +6,11 @@
     </editor> -->
     <title>Šablona popisu služby do KSVS</title>
     <dateCreated>2023-06-27</dateCreated>
-    <dateModified>Tue, 27 Jun 2023 11:00:03 GMT</dateModified>
+    <dateModified>Tue, 27 Jun 2023 11:18:25 GMT</dateModified>
     <ownerName>EGdílna</ownerName>
     <ownerEmail>Egdilna@icloud.com</ownerEmail>
-    <ownerId>Http://egdilna.cz</ownerId>
+    <ownerId>https://github.com/egdilna/sablony/blob/main/popis-sluzby-KSVS.opml</ownerId>
+    <docs>Verze 1.0</docs>
     <expansionState>0</expansionState>
     <vertScrollState></vertScrollState>
     <windowTop>0</windowTop>
@@ -43,6 +44,7 @@
       <outline text="Možnosti odvolání&#10;"/>
       <outline text="Jednací jazyk"/>
     </outline>
+    <outline text=""/>
     <outline text=""/>
   </body>
 </opml>
