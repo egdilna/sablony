@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><!-- <editor>
+      <sidebar width="203"/>
+      <column name="text" width="358"/>
+    </editor> -->
+    <title>Šablona popisu služby do KSVS</title>
+    <dateCreated>2023-06-27</dateCreated>
+    <dateModified>Tue, 27 Jun 2023 11:00:03 GMT</dateModified>
+    <ownerName>EGdílna</ownerName>
+    <ownerEmail>Egdilna@icloud.com</ownerEmail>
+    <ownerId>Http://egdilna.cz</ownerId>
+    <expansionState>0</expansionState>
+    <vertScrollState></vertScrollState>
+    <windowTop>0</windowTop>
+    <windowLeft>0</windowLeft>
+    <windowRight>682</windowRight>
+    <windowBottom>684</windowBottom>
+  </head>
+  <body>
+    <outline text="Název služby">
+      <outline text="Účinnost"/>
+      <outline text="Za správnost odpovídá"/>
+      <outline text="Kontaktní e-mail"/>
+      <outline text="Odkazy"/>
+    </outline>
+    <outline text="Popis služby"/>
+    <outline text="Podrobnosti ">
+      <outline text="Týká se vás to, pokud:"/>
+      <outline text=" "/>
+      <outline text="Jaký má služba benefit?"/>
+      <outline text="Kdy službu řešit"/>
+      <outline text="Kdy službu řešit"/>
+    </outline>
+    <outline text="Vyřízení služby">
+      <outline text="Co potřebujete, pokud službu řešíte"/>
+      <outline text="Kde a jak službu řešit"/>
+      <outline text="Kolik budete platit"/>
+    </outline>
+    <outline text="Doplňující informace&#10;">
+      <outline text="Legislativa&#10;"/>
+      <outline text="Agendy"/>
+      <outline text="Možnosti odvolání&#10;"/>
+      <outline text="Jednací jazyk"/>
+    </outline>
+    <outline text=""/>
+  </body>
+</opml>
