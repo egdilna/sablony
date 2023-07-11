@@ -6,12 +6,12 @@
     </editor> -->
     <title>Šablona popisu služby do KSVS</title>
     <dateCreated>2023-06-27</dateCreated>
-    <dateModified>Tue, 27 Jun 2023 11:18:25 GMT</dateModified>
+    <dateModified>Tue, 11 Jul 2023 16:27:00 GMT</dateModified>
     <ownerName>EGdílna</ownerName>
     <ownerEmail>Egdilna@icloud.com</ownerEmail>
     <ownerId>https://github.com/egdilna/sablony/blob/main/popis-sluzby-KSVS.opml</ownerId>
-    <docs>Verze 1.0</docs>
-    <expansionState>0</expansionState>
+    <docs>Verze 1.1</docs>
+    <expansionState>0,6</expansionState>
     <vertScrollState></vertScrollState>
     <windowTop>0</windowTop>
     <windowLeft>0</windowLeft>
@@ -24,27 +24,23 @@
       <outline text="Za správnost odpovídá"/>
       <outline text="Kontaktní e-mail"/>
       <outline text="Odkazy"/>
+      <outline text="Popis služby"/>
+      <outline text="Podrobnosti ">
+        <outline text="Týká se vás to, pokud:"/>
+        <outline text="Jaký má služba benefit?"/>
+        <outline text="Kdy službu řešit"/>
+      </outline>
+      <outline text="Vyřízení služby">
+        <outline text="Co potřebujete, pokud službu řešíte"/>
+        <outline text="Kde a jak službu řešit"/>
+        <outline text="Kolik budete platit"/>
+      </outline>
+      <outline text="Doplňující informace&#10;">
+        <outline text="Legislativa&#10;"/>
+        <outline text="Agendy"/>
+        <outline text="Možnosti odvolání&#10;"/>
+        <outline text="Jednací jazyk"/>
+      </outline>
     </outline>
-    <outline text="Popis služby"/>
-    <outline text="Podrobnosti ">
-      <outline text="Týká se vás to, pokud:"/>
-      <outline text=" "/>
-      <outline text="Jaký má služba benefit?"/>
-      <outline text="Kdy službu řešit"/>
-      <outline text="Kdy službu řešit"/>
-    </outline>
-    <outline text="Vyřízení služby">
-      <outline text="Co potřebujete, pokud službu řešíte"/>
-      <outline text="Kde a jak službu řešit"/>
-      <outline text="Kolik budete platit"/>
-    </outline>
-    <outline text="Doplňující informace&#10;">
-      <outline text="Legislativa&#10;"/>
-      <outline text="Agendy"/>
-      <outline text="Možnosti odvolání&#10;"/>
-      <outline text="Jednací jazyk"/>
-    </outline>
-    <outline text=""/>
-    <outline text=""/>
   </body>
 </opml>
