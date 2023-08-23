@@ -1,8 +1,7 @@
-> Toto je připravený bzor pro ucelenou analýzu dopadu PDS na úřad. Tato struktura je v maximálním rozsahu, úřad může pochopitelně některé podkapitoly vypustit podle rozsahu jeho působnosti a poskytování služeb.
->
-> Verze šablony: 0.5
->
-> Šablona je vždy k dispozici na xxx
+Verze šablony 0.5
+
+Šablona je vždy k dispozici na <xxx>https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/sablona-analyza-dopadu-PDS.md>
+
 > 
 
 
