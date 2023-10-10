@@ -2,7 +2,8 @@ Verze šablony 0.5
 
 Šablona je vždy k dispozici na <xxx>https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/sablona-analyza-dopadu-PDS.md>
 
-> 
+
+
 
 
 # 1. Úvod
@@ -56,8 +57,9 @@ Shrnující informace pro jednotlivé oblasti PDS:
 ### Elektronická identifikace a důvěryhodnost úkonu
 ### Zpřístupnění údajů a výpisy 
 ### Životní události a služby a úkony a postupy 
+### Data a údaje potřebné pro funkční služby a jejich zdroj
 ### Propojený datový fond a sdílení údajů v AISech 
-### Odkazování <del>klienta</del><ins>klientem</ins> na cizí údaje a zápis skutečnosti v RPP
+### Odkazování klientem na cizí údaje a zápis skutečnosti v RPP
 ### Zapsání skutečnosti do RPP na žádost
 ### Elektronické funkční formuláře
 ### Reklamace
