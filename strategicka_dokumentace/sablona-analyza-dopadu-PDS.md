@@ -1,7 +1,7 @@
-Verze šablony 0.5
+Verze šablony 1.0
 
-Šablona je vždy k dispozici na <xxx>https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/sablona-analyza-dopadu-PDS.md>
-
+Šablona je vždy k dispozici na <https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/sablona-analyza-dopadu-PDS.md>
+https://github.com/egdilna/sablony/blob/main/strategicka_dokumentace/sablona-analyza-dopadu-PDS.md
 
 
 
