@@ -1,4 +1,8 @@
+Organizace
+
+
 Záznam o architektonickém rozhodnutí (ADR)
+
 
 ## Název rozhodnutí
 
@@ -40,6 +44,13 @@ Přínosy a pozitivní důsledky
 Dopady a negativní důsledky <!-- volitelné -->
 
 * odrážky
+
+### Realizace vybrané varianty
+
+Rámcový postup pro realizaci:
+
+1. doplnit
+
 
 ### Odkazy a další informace
 
