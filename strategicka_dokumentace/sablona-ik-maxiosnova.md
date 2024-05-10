@@ -164,11 +164,11 @@ Verze pro maximální rozsah (maxiosnova)
 
 ### 2.3 Shoda s rámcem Informační koncepce ČR
 
-#### 2.3.1 Dopady cílů Informační koncepce ČR v prostředí OVS
+#### 2.3.1 Adopce a realizace cílů Informační koncepce ČR v prostředí OVS
 
 #### 2.3.2 Dopady principů Informační koncepce ČR do digitalizace OVS
 
-#### 2.3.3 Adopce Národního architektonického rámce v OVS
+#### 2.3.3 Adopce Národního architektonického plánu v OVS
 
 #### 2.3.4 Adopce dalších navazujících dokumentů a znalostní báze na OVS
 
