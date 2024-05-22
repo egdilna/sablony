@@ -2,7 +2,7 @@
 
 Primárně nevychází z velké [vzorové osnovy IK OVS](https://archi.gov.cz/znalostni_baze:ik_ovs), ale z osnovy uvedené v nové [vyhlášce 360/2023 o dlouhodobém řízení](https://www.zakonyprolidi.cz/cs/2023-360). To neznamená, že by ale neměla obsahovat vše potřebné, jen je uspořádána jinak a očekává se i její menší rozsah.
 
-Verze šablony: 1.0
+Verze šablony: 1.1
 
 Verze pro obec II typu
 
@@ -203,7 +203,8 @@ Následuje tabulka s popisným vyhodnocením souladu se závaznými architektoni
 
 | Objekt IKČR                                                                                      | Popis zhodnocení |
 |--------------------------------------------------------------------------------------------------|------------------|
-| Architektonický princip P1: Standardně digitalizované (Digital by default)                       |                  |
+| Architektonický princip
+ P1: Standardně digitalizované (Digital by default)                       |                  |
 | Architektonický princip P2: Pouze jednou (Once only)                                             |                  |
 | Architektonický princip P3: Podpora začlenění a přístupnost (Inclusiveness and Accessibility)    |                  |
 | Architektonický princip P4: Otevřenost a transparentnost (Openness and Transparency)             |                  |
@@ -223,6 +224,8 @@ Následuje tabulka s popisným vyhodnocením souladu se závaznými architektoni
 | Architektonický princip P18: Datová suverenita a nezávislost (Data sovereignty and independence) |                  |
 | Architektonický princip P19: Otevřená řešení (Open Source)                                       |                  |
 | Architektonický princip P20: Metriky digitálních služeb (Digital Service Performance)            |                  |
+| Architektonický princip P21: Udržitelnost digitálních služeb a zařízení (Digital service and equipment Sustainability) | |
+| Architektonický princip P22: Svoboda volby (Freedom of choice) | |
 
 
 
