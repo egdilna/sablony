@@ -53,23 +53,23 @@ Tento dokument obsahuje podklady pro zpracování dokumentace k pořízení xxx 
 ### 3.5. Konceptuální role uživatelů informačního systému
 
 
-### ✏️3.6. Podporované agendy, procesy a činnosti
+### 3.6. Podporované agendy, procesy a činnosti
 
-### ☑️3.7. Spravované údaje a řešení propojování a poskytování dat
+### 3.7. Spravované údaje a řešení propojování a poskytování dat
 
-### ☑️3.8. Soulad s právem na digitální služby a dalšími EG zákony
+### 3.8. Soulad s právem na digitální služby a dalšími EG zákony
 
-## ✏️4. Architektonický koncept
+## 4. Architektonický koncept
 
-### ☑️4.1. Obecný popis architektonického záměru
+### 4.1. Obecný popis architektonického záměru
 
-### ✏️4.2. Architektonický záměr v kontextu architektury úřadu
+### 4.2. Architektonický záměr v kontextu architektury úřadu
 
-### ☑️4.3. Soulad s IKČR
+### 4.3. Soulad s IKČR
 
-### ☑️4.4. Soulad s národní architekturou
+### 4.4. Soulad s národní architekturou
 
-#### ☑️Klíčové oblasti architektury
+#### Klíčové oblasti architektury
 
 **Potřebnost a ekonomická výhodnost informačních systémů**
 
@@ -91,38 +91,41 @@ Tento dokument obsahuje podklady pro zpracování dokumentace k pořízení xxx 
 
 **Cloudové služby**
 
-#### 🆕Soulad s funkčními celky uvedenými v NAP
+#### Soulad s funkčními celky uvedenými v NAP
 
-#### Soulad se závazným rámce Generický AIS a požadavky GP
+#### Soulad se závazným rámcem Generický AIS a požadavky GP
 
-### ☑️4.5. Soulad s IK OVS a architekturou OVS
 
-### ✏️4.6. Základní architektonické principy řešení
 
-### ✏️4.7. Očekávaný rozsah cílové architektury řešení
 
-### ☑️4.8. Zvažované varianty
+### 4.5. Soulad s IK OVS a architekturou OVS
 
-## ✏️5. Návrh realizace
+### 4.6. Základní architektonické principy řešení
 
-### ☑️5.1. Obecný popis řešení
+### 4.7. Očekávaný rozsah cílové architektury řešení
 
-### ☑️5.2. Požadavky na informační systémy a aplikace
+### 4.8. Zvažované varianty
 
-### ☑️5.3. Požadavky na vnitřní integraci
+## 5. Návrh realizace
 
-### ✨5.4. Požadavky na vnější integrace
+### 5.1. Obecný popis řešení
 
-### ✏️5.5. Projektové řízení
+### 5.2. Požadavky na informační systémy a aplikace
 
-### ✨5.6. Veřejné zakázky, poptávky a dodávky
+### 5.3. Požadavky na vnitřní integraci
 
-### ☑️5.7. Smluvní vztahy
+### 5.4. Požadavky na vnější integrace
 
-### ☑️5.8. Dopady na dlouhodobé řízení
+### 5.5. Projektové řízení
 
-### ✏️5.9. Řídící dokumentace
+### 5.6. Veřejné zakázky, poptávky a dodávky
 
-### ✏️5.10. Dopady a potřeby změn procesů
+### 5.7. Smluvní vztahy
 
-### ✏️5.11. Další aspekty realizace
+### 5.8. Dopady na dlouhodobé řízení
+
+### 5.9. Řídící dokumentace
+
+### 5.10. Dopady a potřeby změn procesů
+
+### 5.11. Další aspekty realizace
