@@ -23,7 +23,7 @@
 
 ### Zvažované možnosti
 
-[[[odrážky: Zvažované možnosti]]]
+[[[Číslované: Zvažované možnosti]]]
 
 ### Výsledek rozhodnutí
 
@@ -49,12 +49,11 @@ Dopady a negativní důsledky
 
 Rámcový postup pro realizaci:
 
-[[[odrážky: Rámcový postup pro realizaci]]]
+[[[číslované: Rámcový postup pro realizaci]]]
 
 ### Odkazy a další informace
 
 [[[textarea: Odkazy a další informace]]]
 
-<!-- markdownlint-disable-file MD013 MD041 -->
 
 <!-- Používá šablonu ADR z adresy https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/mdt-sablona-adr.mdt -->
