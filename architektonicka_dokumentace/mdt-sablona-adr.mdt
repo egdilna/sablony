@@ -1,0 +1,60 @@
+[[[text: Organizace]]]
+
+
+# Záznam o architektonickém rozhodnutí (ADR): [[[text: Název rozhodnutí]]]
+
+
+## [[[text: Název rozhodnutí]]]
+
+* Stav: [[[volba: návrh, navrženo, schváleno, zamítnuto, nahrazeno, zastaralé]]]
+* Rozhoduje: [[[text: Rozhoduje]]]
+* Účastníci: [[[text: Účastníci]]]
+* Datum aktualizace: [[[datum: Datum aktualizace|j. F Y]]]
+
+[[[text: Stručný popis]]]
+
+### Kontext a popis problému
+
+[[[textarea: Kontext a popis problému]]]
+
+### Motivace a ovlivnění rozhodnutí
+
+[[[odrážky: Motivace a ovlivnění rozhodnutí]]]
+
+### Zvažované možnosti
+
+[[[odrážky: Zvažované možnosti]]]
+
+### Výsledek rozhodnutí
+
+Bylo rozhodnuto dne [[[datum: Datum rozhodnutí|j. F Y]]], rozhodl [[[text: Rozhoduje]]].
+
+Zvolená možnost: [[[text: Zvolená možnost]]]
+
+Zdůvodnění:
+
+[[[odrážky: Zdůvodnění]]]
+
+### Přínosy a dopady a důsledky
+
+Přínosy a pozitivní důsledky
+
+[[[odrážky: Přínosy a pozitivní důsledky]]]
+
+Dopady a negativní důsledky
+
+[[[odrážky: Dopady a negativní důsledky]]]
+
+### Realizace vybrané varianty
+
+Rámcový postup pro realizaci:
+
+[[[odrážky: Rámcový postup pro realizaci]]]
+
+### Odkazy a další informace
+
+[[[textarea: Odkazy a další informace]]]
+
+<!-- markdownlint-disable-file MD013 MD041 -->
+
+<!-- Používá šablonu ADR z adresy https://github.com/egdilna/sablony/blob/main/architektonicka_dokumentace/mdt-sablona-adr.mdt -->
