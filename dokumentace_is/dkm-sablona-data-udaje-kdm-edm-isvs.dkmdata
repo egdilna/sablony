@@ -1,0 +1,1927 @@
+{
+  "version": 1,
+  "projectName": "Šablona pro EDM/KDM a datovou architekturu ISVS",
+  "projectDescription": "",
+  "ghPath": "",
+  "settings": {
+    "visibleTypeTabs": [
+      "t_moq2dpjzdbxevu",
+      "t_moq2fcap5vnaon",
+      "t_moq2klqva65ct4",
+      "t_morcv8purp3lqe"
+    ],
+    "visibleAspectTabs": [
+      "asp_moraxpw5lhmuva",
+      "asp_moreb9cxaj489s"
+    ],
+    "userName": "Michal Rada"
+  },
+  "entityTypes": [
+    {
+      "id": "t_moq2dpjzdbxevu",
+      "name": "Objekt",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_moq2ebislvi7gu",
+          "name": "Popis",
+          "type": "text"
+        },
+        {
+          "id": "a_morb935zsu2sh2",
+          "name": "Stav",
+          "type": "select",
+          "listId": "l_morb6fzx8bil2m"
+        }
+      ]
+    },
+    {
+      "id": "t_moq2fcap5vnaon",
+      "name": "Subjekt",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_moq2fz09b6ldsm",
+          "name": "Popis",
+          "type": "text"
+        },
+        {
+          "id": "a_moq2gcb3pxunwp",
+          "name": "Reprezentující",
+          "type": "relation",
+          "targetType": "t_moq2fcap5vnaon"
+        },
+        {
+          "id": "a_morbarym8j2nee",
+          "name": "Fyzická osoba",
+          "type": "yesno"
+        },
+        {
+          "id": "a_morbb4m6nn9tl1",
+          "name": "Právnický subjekt",
+          "type": "yesno"
+        },
+        {
+          "id": "a_morbbj3vro54k2",
+          "name": "Ztotožnění",
+          "type": "yesno"
+        },
+        {
+          "id": "a_morbbtwyxfc4oq",
+          "name": "Stav",
+          "type": "select",
+          "listId": "l_morb6fzx8bil2m"
+        }
+      ]
+    },
+    {
+      "id": "t_moq2i7h6z3qdnc",
+      "name": "Vlastnost",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_moq2is6xmsgbhd",
+          "name": "Popis",
+          "type": "text"
+        },
+        {
+          "id": "a_moq2j3rot8ekzo",
+          "name": "Jedinečný",
+          "type": "yesno"
+        }
+      ]
+    },
+    {
+      "id": "t_moq2klqva65ct4",
+      "name": "Oblast",
+      "icon": "",
+      "attributes": []
+    },
+    {
+      "id": "t_mor855gd7w8w81",
+      "name": "Evidence",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_mor85iqxuhbbjj",
+          "name": "Popis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "t_moq2cizdobqcj8",
+      "name": "Datový model",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_moq2cxamth1nr1",
+          "name": "Popis účelu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "t_morb12klfmu162",
+      "name": "Věci k řešení",
+      "icon": "❓",
+      "attributes": [
+        {
+          "id": "a_morb1nzpyhht58",
+          "name": "Shrnutí co vyřešit nebo zjistit",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "t_morcv8purp3lqe",
+      "name": "Datové rozhraní",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_morcvrl4v3b8qe",
+          "name": "Identifikátor",
+          "type": "text"
+        },
+        {
+          "id": "a_morcwag8lztml6",
+          "name": "Popis a účel rozhraní",
+          "type": "text"
+        },
+        {
+          "id": "a_morcynz3ql2ta3",
+          "name": "Rozhraní publikuje",
+          "type": "yesno"
+        },
+        {
+          "id": "a_morczjjsu9jj2z",
+          "name": "Rozhraní čte",
+          "type": "yesno"
+        },
+        {
+          "id": "a_morczzq4knr1th",
+          "name": "Uživatelské rozhraní",
+          "type": "yesno"
+        }
+      ]
+    },
+    {
+      "id": "t_mosmjrmth57ddz",
+      "name": "Sestava",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_mosmk82dcwjnz9",
+          "name": "Popis",
+          "type": "text"
+        },
+        {
+          "id": "a_mosmkq3cdgu6sx",
+          "name": "Co rámcově obsahuje",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "t_mosmm3ztnhlkrb",
+      "name": "Obecná",
+      "icon": "",
+      "attributes": [
+        {
+          "id": "a_mosmmbq5ovdj5g",
+          "name": "Popis",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "t_mp2dbs71aerzpf",
+      "name": "Dokument zdroje",
+      "icon": "📃",
+      "attributes": []
+    },
+    {
+      "id": "t_mrby0k3u1ttrjw",
+      "name": "Určená vazba",
+      "icon": "⛓️",
+      "attributes": [
+        {
+          "id": "a_mrby135yu8i034",
+          "name": "Popis vazby",
+          "type": "text",
+          "required": false,
+          "showInList": true
+        },
+        {
+          "id": "a_mrby87tgiumw4e",
+          "name": "Význam Z -> DO",
+          "type": "text"
+        },
+        {
+          "id": "a_mrby8rrllg0b8w",
+          "name": "Význam DO -> Z",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "t_mtgxt0qhthmi19",
+      "name": "Informace",
+      "icon": "ℹ️",
+      "attributes": [
+        {
+          "id": "a_mtgxtmum68o180",
+          "name": "ze šablony",
+          "type": "yesno"
+        },
+        {
+          "id": "a_mtgxu9x0k13qu1",
+          "name": "exportovat do architektury",
+          "type": "yesno"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "asp_morbddjhn02hi7",
+      "name": "Zdroj údaje",
+      "attributes": [
+        {
+          "id": "a_morbdox602gi18",
+          "name": "Zdroj",
+          "type": "relation"
+        },
+        {
+          "id": "a_morbel1399huhz",
+          "name": "Popis využití",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "asp_moraxpw5lhmuva",
+      "name": "K řešení",
+      "attributes": [
+        {
+          "id": "a_moray444grqaq4",
+          "name": "Co vyřešit",
+          "type": "textarea"
+        },
+        {
+          "id": "a_morayp922p4wx6",
+          "name": "Výsledek",
+          "type": "textarea"
+        },
+        {
+          "id": "a_moraz8nxamux2m",
+          "name": "Poznámky",
+          "type": "textarea"
+        },
+        {
+          "id": "a_morazk9cptme5j",
+          "name": "Vyřešeno?",
+          "type": "yesno"
+        },
+        {
+          "id": "a_morb04fwkaq1ho",
+          "name": "Zapracováno?",
+          "type": "yesno"
+        }
+      ]
+    },
+    {
+      "id": "asp_moreb9cxaj489s",
+      "name": "Hlavní prvek",
+      "attributes": []
+    },
+    {
+      "id": "asp_mp2bnlcvkadhql",
+      "name": "Schvalování",
+      "attributes": [
+        {
+          "id": "a_mp2bnyyggz654l",
+          "name": "Stav záznamu",
+          "type": "select",
+          "listId": "l_morb6fzx8bil2m"
+        }
+      ]
+    },
+    {
+      "id": "asp_mp2br6ofhjdll5",
+      "name": "Interní poznámky",
+      "attributes": [
+        {
+          "id": "a_mp2bri4pwahb97",
+          "name": "Poznámky",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "asp_mp2ddlpsra55nf",
+      "name": "Zdroj určení",
+      "attributes": [
+        {
+          "id": "a_mp2de93ulmpfc0",
+          "name": "Dokument",
+          "type": "relation",
+          "targetType": "t_mp2dbs71aerzpf"
+        },
+        {
+          "id": "a_mp2df9rc7h5352",
+          "name": "Zdroj pojmu",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "rt_moq2lt3oo8y2py",
+      "name": "vlastnost prvku",
+      "inverseName": "má vlastnost",
+      "scope": "to",
+      "fromTypes": [],
+      "toTypes": [
+        "t_moq2dpjzdbxevu",
+        "t_moq2fcap5vnaon"
+      ]
+    },
+    {
+      "id": "rt_mora0ozet878q3",
+      "name": "jednoznačný identifikátor",
+      "inverseName": "jednoznačně identifikuje",
+      "scope": "from",
+      "fromTypes": [
+        "t_moq2dpjzdbxevu",
+        "t_moq2fcap5vnaon"
+      ],
+      "toTypes": []
+    },
+    {
+      "id": "rt_mora20rtow0vna",
+      "name": "identifikuje",
+      "inverseName": "identifikován",
+      "scope": "from",
+      "fromTypes": [
+        "t_moq2dpjzdbxevu",
+        "t_moq2fcap5vnaon"
+      ],
+      "toTypes": []
+    },
+    {
+      "id": "rt_moqspyq9hs8n04",
+      "name": "v oblasti",
+      "inverseName": "zahrnuje",
+      "scope": "to",
+      "fromTypes": [],
+      "toTypes": [
+        "t_moq2klqva65ct4"
+      ]
+    },
+    {
+      "id": "rt_mor9x9nslz6z7f",
+      "name": "skládá",
+      "inverseName": "složen z",
+      "scope": "from",
+      "fromTypes": [
+        "t_moq2dpjzdbxevu",
+        "t_moq2fcap5vnaon"
+      ],
+      "toTypes": []
+    },
+    {
+      "id": "rt_moqstaptim16jj",
+      "name": "to samé jako",
+      "inverseName": "",
+      "scope": "universal",
+      "fromTypes": [],
+      "toTypes": []
+    },
+    {
+      "id": "rt_moqsvkxs9aq3o2",
+      "name": "souvisí s",
+      "inverseName": "",
+      "scope": "universal",
+      "fromTypes": [],
+      "toTypes": []
+    },
+    {
+      "id": "rt_mor7wos0fokhx2",
+      "name": "reprezentuje",
+      "inverseName": "reprezentující",
+      "scope": "universal",
+      "fromTypes": [],
+      "toTypes": []
+    },
+    {
+      "id": "rt_mor8k0vvoflblg",
+      "name": "je v evidenci",
+      "inverseName": "eviduje",
+      "scope": "to",
+      "fromTypes": [],
+      "toTypes": [
+        "t_mor855gd7w8w81"
+      ]
+    },
+    {
+      "id": "rt_moracx4qejqdqk",
+      "name": "specializace od",
+      "inverseName": "má specializaci",
+      "scope": "universal",
+      "fromTypes": [],
+      "toTypes": []
+    },
+    {
+      "id": "rt_morajjqp095kzr",
+      "name": "hledisko",
+      "inverseName": "má hledisko",
+      "scope": "from",
+      "fromTypes": [
+        "t_moq2i7h6z3qdnc"
+      ],
+      "toTypes": []
+    },
+    {
+      "id": "rt_morb2wpkhmq116",
+      "name": "dořešit",
+      "inverseName": "v rámci řešení",
+      "scope": "to",
+      "fromTypes": [],
+      "toTypes": [
+        "t_morb12klfmu162"
+      ]
+    },
+    {
+      "id": "rt_mpb1eli2yf21rn",
+      "name": "má vazbu na",
+      "inverseName": "má vazbu z",
+      "scope": "universal",
+      "fromTypes": [],
+      "toTypes": []
+    },
+    {
+      "id": "rt_mrbyc5iuk673z7",
+      "name": "součást vazby",
+      "inverseName": "vazbí",
+      "scope": "to",
+      "fromTypes": [
+        "t_mrby0k3u1ttrjw"
+      ],
+      "toTypes": [
+        "t_mrby0k3u1ttrjw"
+      ]
+    }
+  ],
+  "selectLists": [
+    {
+      "id": "l_morb6fzx8bil2m",
+      "name": "Stav záznamu",
+      "values": [
+        "Námět",
+        "Rozpracované",
+        "Ke korektuře",
+        "Připravené",
+        "Přepracovávané",
+        "Ke schválení",
+        "Schváleno",
+        "Neschváleno",
+        "Přerušeno",
+        "Zrušeno"
+      ]
+    },
+    {
+      "id": "l_mrbyaeb8s1eqfe",
+      "name": "Typ určené vazby",
+      "values": [
+        "neurčeno",
+        "Jednorázová",
+        "Jednosměrná",
+        "Obousměrná",
+        "Pracovní",
+        "Nahrazující",
+        "Specializující"
+      ]
+    }
+  ],
+  "savedViews": [],
+  "entities": [
+    {
+      "id": "e_mor7z6spjw1406",
+      "name": "Právnický subjekt vedený v ROS",
+      "typeId": "t_moq2fcap5vnaon",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2fz09b6ldsm": "Právnický subjekt vedení v Registru osob (globální subjekt)",
+        "a_mp2df9rc7h5352": "§ 25",
+        "a_morbb4m6nn9tl1": true,
+        "a_morbbj3vro54k2": true,
+        "a_morbbtwyxfc4oq": "Schváleno"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_morditpa9nwtej",
+          "relationTypeId": "rt_mor8k0vvoflblg",
+          "targetId": "e_mordeu24r4clg2"
+        },
+        {
+          "id": "r_mp2e59k33udqda",
+          "relationTypeId": "rt_mora0ozet878q3",
+          "targetId": "e_mp2dv02udz694c"
+        },
+        {
+          "id": "r_mp2e5ttbz1udmt",
+          "relationTypeId": "rt_mora20rtow0vna",
+          "targetId": "e_mp2dqrea4ysj6t"
+        },
+        {
+          "id": "r_obl_extra_006",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-05-04T13:12:52.009Z",
+      "updatedAt": "2026-08-31T09:55:00.000Z"
+    },
+    {
+      "id": "e_mordeu24r4clg2",
+      "name": "Registr osob",
+      "typeId": "t_mor855gd7w8w81",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_mor85iqxuhbbjj": "Základní registr"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_obl_extra_004",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-05-04T15:45:00.076Z",
+      "updatedAt": "2026-08-31T09:55:00.000Z"
+    },
+    {
+      "id": "e_mp2dqrea4ysj6t",
+      "name": "Referenční údaj právnické osoby Název osoby",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Obchodní firma nebo název nebo označení právnické osoby; jméno, popřípadě jména, a příjmení fyzické osoby v případech, kdy fyzická osoba nemá přidělené identifikační číslo osoby a údaje o ní se vedou v registru osob na základě jiného právního předpisu (§ 25 písm. e) zákona č. 111/2009 Sb.). Vedeno v základním registru osob jako referenční údaj.",
+        "a_moq2j3rot8ekzo": true,
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. a) a písm. c)",
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_mp2duol5fe29wn",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_001",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-05-12T08:39:44.434Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z"
+    },
+    {
+      "id": "e_mp2dv02udz694c",
+      "name": "Referenční údaj právnické osoby Identifikační číslo osoby",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Identifikační číslo osoby jako jednoznačný identifikátor",
+        "a_moq2j3rot8ekzo": true,
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. b)",
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_mp2e49kq2cw62x",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_002",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-05-12T08:43:02.310Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_mpgrygjpmqupz9",
+      "name": "Orgán veřejné moci",
+      "typeId": "t_moq2fcap5vnaon",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_moq2fz09b6ldsm": "Orgán veřejné moci evidovaný v Regsitru práv a povinností jako OVM",
+        "a_morbarym8j2nee": false,
+        "a_morbb4m6nn9tl1": true,
+        "a_morbbj3vro54k2": true
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_mpgs6rl8y68uc6",
+          "relationTypeId": "rt_mor8k0vvoflblg",
+          "targetId": "e_mpgs40nde00mo9"
+        }
+      ],
+      "createdAt": "2026-05-22T10:26:24.709Z",
+      "updatedAt": "2026-05-22T10:32:52.268Z"
+    },
+    {
+      "id": "e_mpgs40nde00mo9",
+      "name": "Katalog orgánů veřejné moci",
+      "typeId": "t_mor855gd7w8w81",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_mor85iqxuhbbjj": "Část Registru práv a povinností, ve které jsou vyznačeny všechny OVM"
+      },
+      "customAttributes": [],
+      "relations": [],
+      "createdAt": "2026-05-22T10:30:44.041Z",
+      "updatedAt": "2026-05-22T10:31:35.472Z"
+    },
+    {
+      "id": "e_mtgy505r0eor4g",
+      "name": "Informace o šabloně",
+      "typeId": "t_mtgxt0qhthmi19",
+      "inInbox": true,
+      "aspects": [],
+      "attributes": {
+        "a_mtgxtmum68o180": true,
+        "a_mtgxu9x0k13qu1": false
+      },
+      "customAttributes": [
+        {
+          "id": "ca_mtgy505rhf64gi",
+          "name": "Atributy",
+          "type": "textarea",
+          "value": "Tohle je rozpracovaná DKM a EDM šablona pro datový fond, konceptuální datový model a datovou architekturu v ISVS.\n\nŠablona je v souladu s požadavky zákona č. 365/2000 a zákona č. 60/2026. Její povinné součásti jsou neměnné, nicméné vždycky si můžete dotvořit vlastní typy entit, aspekty, atributy, cokoliv."
+        }
+      ],
+      "relations": [],
+      "createdAt": "2026-08-31T07:58:17.103Z",
+      "updatedAt": "2026-08-31T08:01:15.063Z",
+      "comments": [
+        {
+          "id": "c_mtgy8th32533vb",
+          "content": "Tohle je about. Můžete ho klidně smazat, pokud ho nepotřebujete.",
+          "author": "Michal Rada",
+          "createdAt": "2026-08-31T08:01:15.063Z"
+        }
+      ]
+    },
+    {
+      "id": "e_mtgyc4zvrx7vif",
+      "name": "Fyzická osoba evidovaná v ROB",
+      "typeId": "t_moq2fcap5vnaon",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_moq2fz09b6ldsm": "Referenční identita fyzické osoby v Registru obyvatel jako autoritatiní referenční identita",
+        "a_morbarym8j2nee": true,
+        "a_morbb4m6nn9tl1": false,
+        "a_morbbj3vro54k2": true,
+        "a_morbbtwyxfc4oq": "Schváleno"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_mtgyj2x0rdwnty",
+          "relationTypeId": "rt_mor8k0vvoflblg",
+          "targetId": "e_mtgyfb7xrg7noy"
+        },
+        {
+          "id": "r_obl_extra_005",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T08:03:49.963Z",
+      "updatedAt": "2026-08-31T09:55:00.000Z"
+    },
+    {
+      "id": "e_mtgyfb7xrg7noy",
+      "name": "Registr obyvatel",
+      "typeId": "t_mor855gd7w8w81",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_mor85iqxuhbbjj": "Základní registr s referenčními identitami fyzických osob"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_obl_extra_003",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T08:06:17.997Z",
+      "updatedAt": "2026-08-31T09:55:00.000Z"
+    },
+    {
+      "id": "e_mtgyk1ailfdc5w",
+      "name": "Agendový identifikátor fyzické osoby",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Jednoznačný technický identifikátor přidělovaný základním registrem a komponentou ORG2 pro pseudonimizovanou identifikaci konkrétní fyzické osoby vedené v ROB v rámci jedné agendy a nebo kombinaci agnedy a systému",
+        "a_moq2j3rot8ekzo": true
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_mtgynduvbjtuav",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        }
+      ],
+      "createdAt": "2026-08-31T08:09:58.410Z",
+      "updatedAt": "2026-08-31T08:12:39.522Z"
+    },
+    {
+      "id": "e_mtgyocn1for4zn",
+      "name": "Zákon 111/2009",
+      "typeId": "t_mp2dbs71aerzpf",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {},
+      "customAttributes": [],
+      "relations": [],
+      "createdAt": "2026-08-31T08:13:19.740Z",
+      "updatedAt": "2026-08-31T08:13:34.618Z"
+    },
+    {
+      "id": "e_ru_001",
+      "name": "Referenční údaj fyzické osoby Příjmení",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Aktuální příjmení fyzické osoby vedené v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. a)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_001",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_003",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_002",
+      "name": "Referenční údaj fyzické osoby Jméno, popřípadě jména",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Jméno, popřípadě více jmen fyzické osoby vedené v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. b)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_002",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_004",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_003",
+      "name": "Referenční údaj fyzické osoby Adresa místa pobytu",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Adresa místa pobytu fyzické osoby vedená v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. c) — první část"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_003",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_005",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_004",
+      "name": "Referenční údaj fyzické osoby Adresa pro doručování písemností",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Adresa, na kterou mají být doručovány písemnosti podle jiného právního předpisu, vedená v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. c) — druhá část"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_004",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_006",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_005",
+      "name": "Referenční údaj fyzické osoby Datum, místo a okres narození",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Datum, místo a okres narození fyzické osoby; u subjektu údajů, který se narodil v cizině, datum, místo a stát, kde se narodil. Vedeno v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. d)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_005",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_007",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_006",
+      "name": "Referenční údaj fyzické osoby Datum, místo a okres úmrtí",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Datum, místo a okres úmrtí fyzické osoby; jde-li o úmrtí mimo území ČR, datum úmrtí a stát, na jehož území k úmrtí došlo; je-li vydáno rozhodnutí soudu o prohlášení za mrtvého, den uvedený jako den smrti nebo jako den, který nepřežil, a datum nabytí právní moci tohoto rozhodnutí. Vedeno v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. e)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_006",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_008",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_007",
+      "name": "Referenční údaj fyzické osoby Státní občanství",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Státní občanství, popřípadě více státních občanství fyzické osoby vedené v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. f)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_007",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_009",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_008",
+      "name": "Referenční údaj fyzické osoby Čísla elektronicky čitelných identifikačních dokladů",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Čísla elektronicky čitelných identifikačních dokladů fyzické osoby vedená v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. g)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_008",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_010",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_009",
+      "name": "Referenční údaj fyzické osoby Záznam o zřízení datové schránky a identifikátor datové schránky",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Záznam o zřízení datové schránky a identifikátor datové schránky, je-li tato datová schránka zpřístupněna. Vedeno v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. h)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_009",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_011",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_010",
+      "name": "Referenční údaj fyzické osoby Záznam o zpřístupnění datové schránky",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Záznam o zpřístupnění datové schránky, byla-li tato datová schránka zpřístupněna. Vedeno v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. i)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_010",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_012",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_011",
+      "name": "Referenční údaj fyzické osoby Záznam o zrušení datové schránky",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Záznam o zrušení datové schránky, byla-li tato datová schránka zrušena. Vedeno v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. j)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_011",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_013",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_012",
+      "name": "Referenční údaj fyzické osoby Záznam o zneplatnění datové schránky",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Záznam o zneplatnění datové schránky, je-li tato datová schránka zneplatněna. Vedeno v základním registru obyvatel jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 18 odst. 1 písm. k)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_012",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mtgyc4zvrx7vif"
+        },
+        {
+          "id": "r_obl_014",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_014",
+      "name": "Referenční údaj právnické osoby Datum vzniku nebo datum zápisu do evidence",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Datum vzniku osoby nebo datum zápisu osoby do evidence podle jiných právních předpisů. Vedeno v základním registru osob jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. d)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_014",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_015",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_015",
+      "name": "Referenční údaj právnické osoby Datum zániku nebo datum výmazu z evidence",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Datum zániku osoby nebo datum výmazu osoby z evidence podle jiných právních předpisů. Vedeno v základním registru osob jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. e)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_015",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_016",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_016",
+      "name": "Referenční údaj právnické osoby Právní forma",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Právní forma osoby vedená v základním registru osob jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. f)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_016",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_017",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_017",
+      "name": "Referenční údaj právnické osoby Záznam o zřízení datové schránky a identifikátor datové schránky",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Záznam o zřízení datové schránky a identifikátor datové schránky, je-li tato datová schránka zpřístupněna. Vedeno v základním registru osob jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. g)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_017",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_018",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_018",
+      "name": "Referenční údaj právnické osoby Statutární orgán",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Statutární orgán vyjádřený referenční vazbou na registr obyvatel anebo na registr osob nebo údajem o jménu, popřípadě jménech, příjmení a bydlišti u fyzické osoby nebo údajem o názvu a sídle právnické osoby, nevedou-li se tyto osoby v registru obyvatel nebo registru osob.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. h)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_018",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_019",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_019",
+      "name": "Referenční údaj právnické osoby Likvidátor",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Likvidátor vyjádřený referenční vazbou na registr obyvatel anebo na registr osob nebo údajem o jménu, popřípadě jménech, příjmení a bydlišti u fyzické osoby nebo údajem o názvu a sídle právnické osoby, nevedou-li se tyto osoby v registru obyvatel nebo registru osob.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. i)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_019",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_020",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_020",
+      "name": "Referenční údaj právnické osoby Adresa sídla nebo adresa místa podnikání",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Adresa sídla osoby nebo adresa místa podnikání fyzické osoby uvedené v § 25 písm. d) a e); jde-li o stavební objekt vedený v registru územní identifikace, vede se tento údaj ve formě referenční vazby (kódu adresního místa) na referenční údaj o adrese.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. j)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_020",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_021",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_ru_021",
+      "name": "Referenční údaj právnické osoby Datum zahájení, pozastavení, přerušení nebo ukončení provozování živnosti",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Datum zahájení provozování živnosti, datum pozastavení, přerušení nebo ukončení provozování živnosti. Vedeno v základním registru osob jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 26 odst. 2 písm. k)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_ru_021",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_mor7z6spjw1406"
+        },
+        {
+          "id": "r_obl_022",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:00:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_rpp_001",
+      "name": "Registr práv a povinností",
+      "typeId": "t_mor855gd7w8w81",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_mor85iqxuhbbjj": "Základní registr, ve kterém jsou vedeny referenční údaje o agendách veřejné správy, orgánech veřejné moci, soukromoprávních uživatelích údajů a jejich právech a povinnostech (§ 51 zákona č. 111/2009 Sb.)."
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_obl_extra_001",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:55:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agenda_001",
+      "name": "Agenda",
+      "typeId": "t_moq2dpjzdbxevu",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {
+        "a_moq2ebislvi7gu": "Ucelená oblast působení orgánu veřejné moci nebo ucelená oblast působení soukromoprávního uživatele údajů (§ 2 písm. e) zákona č. 111/2009 Sb.). Údaje o agendě jsou vedeny v Registru práv a povinností."
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agenda_rpp",
+          "relationTypeId": "rt_mor8k0vvoflblg",
+          "targetId": "e_rpp_001"
+        },
+        {
+          "id": "r_obl_extra_002",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:55:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_001",
+      "name": "Referenční údaj agendy Název agendy a její číselný kód",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Název agendy a její číselný kód, které jsou součástí číselníku agend. Vedeno v Registru práv a povinností jako referenční údaj.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. a)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_001",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_023",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_002",
+      "name": "Referenční údaj agendy Právní předpis, na jehož základě OVM nebo SPUÚ působí",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Číslo a název právního předpisu a označení jeho ustanovení, na jehož základě orgán veřejné moci působí nebo na jehož základě je soukromoprávní uživatel údajů oprávněn k využívání údajů.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. b)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_002",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_024",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_003",
+      "name": "Referenční údaj agendy Výčet a popis činností a rolí",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet a popis činností, které mají být vykonávány v agendě, včetně výčtu rolí pro danou činnost.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. c)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_003",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_025",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_004",
+      "name": "Referenční údaj agendy Výčet úkonů OVM vůči adresátovi",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet a označení úkonů orgánu veřejné moci vykonávaných v rámci agendy jako úkony vůči subjektu, který v postavení adresáta těchto úkonů nepůsobí jako orgán veřejné moci; identifikátor úkonu, vymezení subjektu, vůči kterému je úkon činěn, forma úkonu, jeho výstup, možný způsob autentizace subjektu při výkonu úkonu, informace o zpoplatnění výkonu úkonu, výše zpoplatnění a průměrná doba trvání úkonu.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. d)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_004",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_026",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_005",
+      "name": "Referenční údaj agendy Výčet úkonů subjektu vůči OVM",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet a označení úkonů subjektu, který při vykonávání těchto úkonů nepůsobí jako orgán veřejné moci, vykonávaných v rámci agendy vůči orgánu veřejné moci; identifikátor úkonu, vymezení orgánu veřejné moci, vůči kterému je úkon činěn, forma úkonu, jeho výstup, informace o zpoplatnění výkonu úkonu, výše zpoplatnění a průměrná doba trvání úkonu.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. e)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_005",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_027",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_006",
+      "name": "Údaj agendy Popis úkonů OVM podle písm. d)",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Popis úkonů orgánu veřejné moci podle § 51 odst. 6 písm. d). Není referenčním údajem (§ 51 odst. 8 zákona č. 111/2009 Sb.).",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. f)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_006",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_028",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_007",
+      "name": "Údaj agendy Popis úkonů subjektu podle písm. e)",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Popis úkonů subjektu, který při vykonávání těchto úkonů nepůsobí jako orgán veřejné moci, podle § 51 odst. 6 písm. e). Není referenčním údajem (§ 51 odst. 8 zákona č. 111/2009 Sb.).",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. g)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_007",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_029",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_008",
+      "name": "Referenční údaj agendy Výčet OVM a SPUÚ vykonávajících agendu",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet orgánů veřejné moci a soukromoprávních uživatelů údajů, kteří agendu vykonávají, nebo jejich kategorie.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. h)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_008",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_030",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_009",
+      "name": "Referenční údaj agendy Ohlašovatel agendy",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Název ohlašovatele agendy a jeho identifikátor orgánu veřejné moci.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. i)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_009",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_031",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_010",
+      "name": "Referenční údaj agendy Výčet zaregistrovaných pro výkon agendy",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet orgánů veřejné moci a soukromoprávních uživatelů údajů, kteří byli pro výkon agendy zaregistrováni, a jejich identifikátor.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. j)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_010",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_032",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_011",
+      "name": "Referenční údaj agendy Výčet a struktura údajů vedených v rámci agendy",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet a struktura údajů vedených nebo vytvářených podle jiného právního předpisu v rámci agendy, přístupnost jednotlivých údajů veřejnosti a plánované lhůty aktualizací údajů.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. k)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_011",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_033",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_012",
+      "name": "Referenční údaj agendy Výčet údajů ze základních registrů zpřístupněných pro výkon agendy",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet údajů vedených v základních registrech zpřístupněných pro výkon agendy a rozsah oprávnění k využívání těchto údajů.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. l)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_012",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_034",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_013",
+      "name": "Referenční údaj agendy Výčet údajů z jiných AIS zpřístupněných pro výkon agendy",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Výčet a struktura údajů vedených v jiných agendových informačních systémech zpřístupněných pro výkon dané agendy a rozsah oprávnění k využívání těchto údajů.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. m)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_013",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_035",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_014",
+      "name": "Referenční údaj agendy Právní předpis pro využívání údajů",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Číslo a název právního předpisu a označení jeho ustanovení, na jehož základě je orgán veřejné moci nebo soukromoprávní uživatel údajů oprávněn využívat údaje ze základních registrů nebo z agendových informačních systémů anebo je zapisovat, nejde-li o zákon č. 111/2009 Sb.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. n)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_014",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_036",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_agu_015",
+      "name": "Referenční údaj agendy Adresa pracoviště OVM nebo SPUÚ",
+      "typeId": "t_moq2i7h6z3qdnc",
+      "inInbox": false,
+      "aspects": [
+        "asp_mp2ddlpsra55nf"
+      ],
+      "attributes": {
+        "a_moq2is6xmsgbhd": "Adresa pracoviště orgánu veřejné moci nebo soukromoprávního uživatele údajů.",
+        "a_moq2j3rot8ekzo": false,
+        "a_mp2de93ulmpfc0": "e_mtgyocn1for4zn",
+        "a_mp2df9rc7h5352": "§ 51 odst. 6 písm. o)"
+      },
+      "customAttributes": [],
+      "relations": [
+        {
+          "id": "r_agu_015",
+          "relationTypeId": "rt_moq2lt3oo8y2py",
+          "targetId": "e_agenda_001"
+        },
+        {
+          "id": "r_obl_037",
+          "relationTypeId": "rt_moqspyq9hs8n04",
+          "targetId": "e_oblast_ref"
+        }
+      ],
+      "createdAt": "2026-08-31T09:30:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "e_oblast_ref",
+      "name": "Referenční údaje",
+      "typeId": "t_moq2klqva65ct4",
+      "inInbox": false,
+      "aspects": [],
+      "attributes": {},
+      "customAttributes": [],
+      "relations": [],
+      "createdAt": "2026-08-31T09:45:00.000Z",
+      "updatedAt": "2026-08-31T09:45:00.000Z",
+      "archived": false
+    }
+  ]
+}
